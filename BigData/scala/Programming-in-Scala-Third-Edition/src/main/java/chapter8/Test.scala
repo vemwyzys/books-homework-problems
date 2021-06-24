@@ -1,5 +1,7 @@
 package chapter8
 
+import java.io.File
+
 /**
  * @describe
  * @author gzho
@@ -74,9 +76,10 @@ object Test {
     //指定参数
     println(speed(time = 10, distance = 100))
 
-    //缺省参数
+    //缺省(默认)参数
     def printTime(out: java.io.PrintStream = Console.out) =
       out.println("time =" + System.currentTimeMillis())
+
   }
 
 }
